@@ -1,13 +1,165 @@
-body {
-    background-color: lightblue;
-  }
-  
-  h1 {
-    color: white;
-    text-align: center;
-  }
-  
-  p {
-    font-family: verdana;
-    font-size: 20px;
-  }
+<<<<<<< HEAD:main.css
+* {
+	margin: 0;
+	padding: 0;
+	font-family:sans-serif;
+}
+.main{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("img/veg3.png");
+	background-position: center;
+	background-size:cover;
+    
+	position: absolute;
+}
+
+.form-box{
+	width: 440px;
+	height: 590px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff;
+	padding: 5px;
+	border-radius: 5%;
+	overflow: hidden;
+}
+
+.button-box {
+	width: 369px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+
+.toggle-btn {
+	padding: 10px 40px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+
+#btn {
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 180px;
+	height: 100%;
+	background: linear-gradient(to right, #e79aab,#3ee63e);
+	border-radius: 30px;
+	transition: 0.5s ease;
+
+}
+
+.input-group {
+	top: 140px;
+	position: absolute;
+	width: 280px;
+	transition: 0.5s ease;
+}
+.input-field 
+{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+
+.submit-btn {
+	width: 85%;
+	padding: 10px 40px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	background: linear-gradient(to right,#e79aab,#3ee63e);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+#Signup_Customer {
+	left: 50px;
+}
+
+#Signup_Retailer {
+	left: 450px;
+}
+
+=======
+body{
+    background-image: url("../img/veg3.png");
+    background-size:cover;
+    font-family:sans-serif;
+}
+.main{
+	max-width:350px;
+	border-radius:20px;
+	margin:auto;
+	background:rgba(0,0,0,0.8);
+	box-sizing:border-box;
+	padding:40px;
+	color:#fff;
+	margin-top:100px;
+}
+
+.b {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: calc(50% - 50px);
+}
+
+h1 {
+	text-align: center;
+}
+input[type=text],input[type=password]
+{
+	width: 100%;
+	border:none;
+	background:rgba(0,0,0,10);
+	border-bottom:1px solid #fff;
+	background:transparent;
+	padding:12px 5px;
+	outline:none;
+	color:#fff;
+	margin:5px;
+	font-weight:bold;
+}
+input[type=submit]
+{
+	width:100%;
+	box-sizing:border-box;
+	padding:10px 0;
+	margin-top:30px;
+	outline:none;
+	background:#78dff1;
+	opacity:0.7;
+	border-radius:20px;
+	font-size:20px;
+	color:#000;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background: #5df058;
+    color: #000;
+}
+
+.main a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(243, 150, 201);
+}
+>>>>>>> 9bfbe536145a414554d3432669005b804e2538c6:css/main.css
